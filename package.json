@@ -13,7 +13,7 @@
     "test:ci": "jest --runInBand",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "generate": "npx plop --plopfile generators/plopfile.js"
+    "generate:component": "npx plop --plopfile generators/plopfile.js"
   },
   "dependencies": {
     "next": "14.2.14",
